@@ -1,0 +1,11 @@
+<h1>Guides!</h1>
+
+<div ng-repeat="guide in guides">
+	<h4>{{ guide.title }}</h4>
+	<h4>{{ guide.type }}</h4>
+	<h4>{{ guide.price }}</h4>
+</div>
+
+<div>
+	<input type="text" ng-model="newGuide.price">
+</div>
